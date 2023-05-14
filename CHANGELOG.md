@@ -661,8 +661,23 @@ Released with 1.0.0-beta.37 code base.
 ### Security
   - Updated dependencies (#5885)
 
-## [Unreleased]
+## [1.10.0]
 
 ### Fixed
 
   - Improved the error propagation in `web3-providers-http` package to effectively propagate useful error infomation about failed HTTP connections (#5955)
+  - Fixed "Uncaught TypeError" calling a contract function that revert using MetaMask (#4454) and related "n.data.substring is not a function", that is raised when there is a revert and `web.eth.handleRevert = true` (#6000)
+
+### Changed
+
+  - `transaction.type` is now formatted to a hex string before being send to provider (#5979)
+  - When sending a transaction, if `transaction.type === '0x1' && transaction.accessList === undefined`, then `transaction.accessList` is set to `[]` (#5979)
+  - Removed an unnecessary `chainId` parameter from `toChecksumAddress()` function types (#5888)
+### Added
+-   Added support for `getPastEvents` method to filter `allEvents` and specific event (#6015)
+
+### Security
+  - Updated dependencies (#6044)
+
+
+## [Unreleased]
