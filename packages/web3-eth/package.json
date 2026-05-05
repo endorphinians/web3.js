@@ -16,10 +16,10 @@
     "dependencies": {
         "web3-core": "1.10.0",
         "web3-core-helpers": "1.10.0",
-        "web3-core-method": "1.10.0",
-        "web3-core-subscriptions": "1.10.0",
+        "web3-core-method": "1.10.4",
+        "web3-core-subscriptions": "1.10.3",
         "web3-eth-abi": "1.10.0",
-        "web3-eth-accounts": "1.10.0",
+        "web3-eth-accounts": "4.3.1",
         "web3-eth-contract": "1.10.0",
         "web3-eth-ens": "1.10.0",
         "web3-eth-iban": "1.10.0",
