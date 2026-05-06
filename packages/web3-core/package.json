@@ -18,7 +18,7 @@
         "@types/node": "^12.12.6",
         "bignumber.js": "^9.0.0",
         "web3-core-helpers": "1.10.0",
-        "web3-core-method": "1.10.0",
+        "web3-core-method": "1.10.4",
         "web3-core-requestmanager": "1.10.0",
         "web3-utils": "1.10.0"
     },
